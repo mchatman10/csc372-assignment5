@@ -11,9 +11,9 @@ let wins = 0, losses = 0, ties = 0;
 let playerChoice = null;
 
 const choices = [
-    { name: "Rock", img: "images/rock.png" },
-    { name: "Paper", img: "images/paper.png" },
-    { name: "Scissors", img: "images/scissors.png" }
+    { name: "Rock", img: "images/rock.PNG" },
+    { name: "Paper", img: "images/paper.PNG" },
+    { name: "Scissors", img: "images/scissors.PNG" }
 ];
 
 figures.forEach(fig => {
@@ -75,7 +75,7 @@ resetBtn.addEventListener("click", () => {
     wins = losses = ties = 0;
     updateScoreboard();
     outcomeText.textContent = "Make your choice!";
-    computerImg.src = "images/question-mark.png";
+    computerImg.src = "images/question-mark.PNG";
     computerLabel.textContent = "?";
     figures.forEach(f => f.classList.remove("selected"));
 });

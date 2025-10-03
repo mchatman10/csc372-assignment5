@@ -55,7 +55,7 @@ function determineWinner(player, computer) {
         (player === "Rock" && computer === "Scissors") ||
         (player === "Paper" && computer === "Rock") ||
         (player === "Scissors" && computer === "Paper")
-     ) {
+    ) {
         outcomeText.textContent = "You Win!";
         wins++;
     } else {

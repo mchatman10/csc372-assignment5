@@ -1,0 +1,88 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 30px;
+    background-image: url("images/background-image.png");
+    backdrop-filter: blur(10px);
+    background-size: cover;
+}
+
+h1 {
+    color:white;
+}
+
+h2 {
+    color:blue;
+}
+
+h2, h3, h4 {
+    font-size: 25px;
+}
+
+h3 {
+    color: red;
+}
+
+h4 {
+    color: rgb(37, 37, 37);
+}
+
+
+p { /*Make your choice*/
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+    color:rgb(226, 226, 226)
+}
+
+h2, h3, h4, h5, h6 {
+margin-bottom: 10px;
+}
+
+.choices, .computer, .outcome, .scoreboard {
+    margin: 20px 0;
+}
+
+figure {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    border: 4px solid transparent;
+    border-radius: 10px;
+    padding: 5px;
+    transition: border 0.3s;
+}
+
+figure img {
+    width: 100px;
+    height: 100px;
+}
+
+figure.selected {
+    border: 4px solid blue;
+}
+
+.computer img {
+    width: 100px;
+    height: 100px;
+}
+
+.outcome {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.scoreboard span {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
